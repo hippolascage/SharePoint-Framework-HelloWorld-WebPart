@@ -1,0 +1,354 @@
+[
+  {
+    "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a",
+    "componentType": "Library",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "sp-lodash-subset",
+      "internalModuleBaseUrls": [
+        "http://airbus-a380.local:4321/node_modules/@microsoft/sp-lodash-subset/"
+      ],
+      "scriptResources": {
+        "sp-lodash-subset": {
+          "type": "internal",
+          "path": "dist/sp-lodash-subset.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "1c6c9123-7aac-41f3-a376-3caea41ed83f",
+    "componentType": "Library",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "sp-module-loader",
+      "internalModuleBaseUrls": [
+        "http://airbus-a380.local:4321/node_modules/@microsoft/sp-module-loader/"
+      ],
+      "scriptResources": {
+        "sp-module-loader": {
+          "type": "internal",
+          "path": "dist/sp-module-loader.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "af59c2b3-2da7-41fd-8b72-3939817960af",
+    "componentType": "Library",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "sp-client-base",
+      "internalModuleBaseUrls": [
+        "http://airbus-a380.local:4321/node_modules/@microsoft/sp-client-base/"
+      ],
+      "scriptResources": {
+        "sp-client-base": {
+          "type": "internal",
+          "path": "dist/sp-client-base.js"
+        },
+        "@microsoft/sp-lodash-subset": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "02a01e42-69ab-403d-8a16-acd128661f8e",
+    "componentType": "Library",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "office-ui-fabric-react.bundle",
+      "internalModuleBaseUrls": [
+        "http://airbus-a380.local:4321/node_modules/@microsoft/office-ui-fabric-react-bundle/"
+      ],
+      "scriptResources": {
+        "office-ui-fabric-react.bundle": {
+          "type": "internal",
+          "path": "dist/office-ui-fabric-react.bundle.js"
+        },
+        "react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react/dist/react.min.js"
+        },
+        "react-dom": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react-dom/dist/react-dom.min.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "4d5eb168-6729-49a8-aec7-0e397f486b6e",
+    "componentType": "Library",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "loaderConfig": {
+      "entryModuleId": "sp-client-preview",
+      "internalModuleBaseUrls": [
+        "http://airbus-a380.local:4321/node_modules/@microsoft/sp-client-preview/"
+      ],
+      "scriptResources": {
+        "sp-client-preview": {
+          "type": "internal",
+          "path": "dist/sp-client-preview.js"
+        },
+        "4d5eb168-6729-49a8-aec7-0e397f486b6e_strings": {
+          "defaultPath": "lib/resx-strings/en-us.js",
+          "type": "localized",
+          "paths": {
+            "ar-sa": "lib/resx-strings/ar-sa.js",
+            "az-latn-az": "lib/resx-strings/az-latn-az.js",
+            "bg-bg": "lib/resx-strings/bg-bg.js",
+            "bs-latn-ba": "lib/resx-strings/bs-latn-ba.js",
+            "ca-es": "lib/resx-strings/ca-es.js",
+            "cs-cz": "lib/resx-strings/cs-cz.js",
+            "cy-gb": "lib/resx-strings/cy-gb.js",
+            "da-dk": "lib/resx-strings/da-dk.js",
+            "de-de": "lib/resx-strings/de-de.js",
+            "el-gr": "lib/resx-strings/el-gr.js",
+            "es-es": "lib/resx-strings/es-es.js",
+            "et-ee": "lib/resx-strings/et-ee.js",
+            "eu-es": "lib/resx-strings/eu-es.js",
+            "fi-fi": "lib/resx-strings/fi-fi.js",
+            "fr-fr": "lib/resx-strings/fr-fr.js",
+            "ga-ie": "lib/resx-strings/ga-ie.js",
+            "gl-es": "lib/resx-strings/gl-es.js",
+            "he-il": "lib/resx-strings/he-il.js",
+            "hi-in": "lib/resx-strings/hi-in.js",
+            "hr-hr": "lib/resx-strings/hr-hr.js",
+            "hu-hu": "lib/resx-strings/hu-hu.js",
+            "id-id": "lib/resx-strings/id-id.js",
+            "it-it": "lib/resx-strings/it-it.js",
+            "ja-jp": "lib/resx-strings/ja-jp.js",
+            "kk-kz": "lib/resx-strings/kk-kz.js",
+            "ko-kr": "lib/resx-strings/ko-kr.js",
+            "lt-lt": "lib/resx-strings/lt-lt.js",
+            "lv-lv": "lib/resx-strings/lv-lv.js",
+            "mk-mk": "lib/resx-strings/mk-mk.js",
+            "ms-my": "lib/resx-strings/ms-my.js",
+            "nb-no": "lib/resx-strings/nb-no.js",
+            "nl-nl": "lib/resx-strings/nl-nl.js",
+            "pl-pl": "lib/resx-strings/pl-pl.js",
+            "prs-af": "lib/resx-strings/prs-af.js",
+            "pt-br": "lib/resx-strings/pt-br.js",
+            "pt-pt": "lib/resx-strings/pt-pt.js",
+            "qps-ploc": "lib/resx-strings/qps-ploc.js",
+            "qps-ploca": "lib/resx-strings/qps-ploca.js",
+            "ro-ro": "lib/resx-strings/ro-ro.js",
+            "ru-ru": "lib/resx-strings/ru-ru.js",
+            "sk-sk": "lib/resx-strings/sk-sk.js",
+            "sl-si": "lib/resx-strings/sl-si.js",
+            "sr-cyrl-rs": "lib/resx-strings/sr-cyrl-rs.js",
+            "sr-latn-rs": "lib/resx-strings/sr-latn-rs.js",
+            "sv-se": "lib/resx-strings/sv-se.js",
+            "th-th": "lib/resx-strings/th-th.js",
+            "tr-tr": "lib/resx-strings/tr-tr.js",
+            "uk-ua": "lib/resx-strings/uk-ua.js",
+            "vi-vn": "lib/resx-strings/vi-vn.js",
+            "zh-cn": "lib/resx-strings/zh-cn.js",
+            "zh-tw": "lib/resx-strings/zh-tw.js"
+          }
+        },
+        "@microsoft/sp-lodash-subset": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js"
+        },
+        "@microsoft/sp-client-base": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js"
+        },
+        "react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react/dist/react.js"
+        },
+        "react-dom": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react-dom/dist/react-dom.js"
+        },
+        "office-ui-fabric-react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/office-ui-fabric-react/dist/office-ui-fabric-react.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "8be81a5c-af38-4bb2-af97-afa3b64dfbed",
+    "componentType": "Application",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "title": {
+      "default": "WebpartWorkbench"
+    },
+    "description": {
+      "default": "WebpartWorkbench"
+    },
+    "preloadComponents": [
+      "6aeaab4a-4d96-47fe-a0c2-9e063a2efda4",
+      "4d5eb168-6729-49a8-aec7-0e397f486b6e",
+      "a8c07ea7-3ee8-4376-8afa-e0c5098615eb",
+      "02a01e42-69ab-403d-8a16-acd128661f8e"
+    ],
+    "preloadOptions": {
+      "shouldPreloadWeb": false,
+      "shouldPreloadUser": true,
+      "shouldPreloadList": false,
+      "shouldPreloadItem": true,
+      "shouldPreloadQuickLaunch": true
+    },
+    "loaderConfig": {
+      "entryModuleId": "sp-webpart-workbench",
+      "internalModuleBaseUrls": [
+        "http://airbus-a380.local:4321/node_modules/@microsoft/sp-webpart-workbench/"
+      ],
+      "scriptResources": {
+        "sp-webpart-workbench": {
+          "type": "internal",
+          "path": "dist/sp-webpart-workbench.js"
+        },
+        "8be81a5c-af38-4bb2-af97-afa3b64dfbed_strings": {
+          "defaultPath": "lib/resx-strings/en-us.js",
+          "type": "localized",
+          "paths": {
+            "ar-sa": "lib/resx-strings/ar-sa.js",
+            "az-latn-az": "lib/resx-strings/az-latn-az.js",
+            "bg-bg": "lib/resx-strings/bg-bg.js",
+            "bs-latn-ba": "lib/resx-strings/bs-latn-ba.js",
+            "ca-es": "lib/resx-strings/ca-es.js",
+            "cs-cz": "lib/resx-strings/cs-cz.js",
+            "cy-gb": "lib/resx-strings/cy-gb.js",
+            "da-dk": "lib/resx-strings/da-dk.js",
+            "de-de": "lib/resx-strings/de-de.js",
+            "el-gr": "lib/resx-strings/el-gr.js",
+            "es-es": "lib/resx-strings/es-es.js",
+            "et-ee": "lib/resx-strings/et-ee.js",
+            "eu-es": "lib/resx-strings/eu-es.js",
+            "fi-fi": "lib/resx-strings/fi-fi.js",
+            "fr-fr": "lib/resx-strings/fr-fr.js",
+            "ga-ie": "lib/resx-strings/ga-ie.js",
+            "gl-es": "lib/resx-strings/gl-es.js",
+            "he-il": "lib/resx-strings/he-il.js",
+            "hi-in": "lib/resx-strings/hi-in.js",
+            "hr-hr": "lib/resx-strings/hr-hr.js",
+            "hu-hu": "lib/resx-strings/hu-hu.js",
+            "id-id": "lib/resx-strings/id-id.js",
+            "it-it": "lib/resx-strings/it-it.js",
+            "ja-jp": "lib/resx-strings/ja-jp.js",
+            "kk-kz": "lib/resx-strings/kk-kz.js",
+            "ko-kr": "lib/resx-strings/ko-kr.js",
+            "lt-lt": "lib/resx-strings/lt-lt.js",
+            "lv-lv": "lib/resx-strings/lv-lv.js",
+            "mk-mk": "lib/resx-strings/mk-mk.js",
+            "ms-my": "lib/resx-strings/ms-my.js",
+            "nb-no": "lib/resx-strings/nb-no.js",
+            "nl-nl": "lib/resx-strings/nl-nl.js",
+            "pl-pl": "lib/resx-strings/pl-pl.js",
+            "prs-af": "lib/resx-strings/prs-af.js",
+            "pt-br": "lib/resx-strings/pt-br.js",
+            "pt-pt": "lib/resx-strings/pt-pt.js",
+            "qps-ploc": "lib/resx-strings/qps-ploc.js",
+            "qps-ploca": "lib/resx-strings/qps-ploca.js",
+            "ro-ro": "lib/resx-strings/ro-ro.js",
+            "ru-ru": "lib/resx-strings/ru-ru.js",
+            "sk-sk": "lib/resx-strings/sk-sk.js",
+            "sl-si": "lib/resx-strings/sl-si.js",
+            "sr-cyrl-rs": "lib/resx-strings/sr-cyrl-rs.js",
+            "sr-latn-rs": "lib/resx-strings/sr-latn-rs.js",
+            "sv-se": "lib/resx-strings/sv-se.js",
+            "th-th": "lib/resx-strings/th-th.js",
+            "tr-tr": "lib/resx-strings/tr-tr.js",
+            "uk-ua": "lib/resx-strings/uk-ua.js",
+            "vi-vn": "lib/resx-strings/vi-vn.js",
+            "zh-cn": "lib/resx-strings/zh-cn.js",
+            "zh-tw": "lib/resx-strings/zh-tw.js"
+          }
+        },
+        "react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react/dist/react.min.js"
+        },
+        "react-dom": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/react-dom/dist/react-dom.min.js"
+        },
+        "@microsoft/sp-client-preview": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js"
+        },
+        "@microsoft/sp-client-base": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js"
+        },
+        "office-ui-fabric-react": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/office-ui-fabric-react/dist/office-ui-fabric-react.min.js"
+        }
+      }
+    }
+  },
+  {
+    "id": "f99a0b0a-9f68-409a-8eeb-2ae10a1f9f4c",
+    "componentType": "WebPart",
+    "version": "0.0.1",
+    "manifestVersion": 2,
+    "preconfiguredEntries": [
+      {
+        "groupId": "f99a0b0a-9f68-409a-8eeb-2ae10a1f9f4c",
+        "group": {
+          "default": "Under Development"
+        },
+        "title": {
+          "default": "HelloWorld"
+        },
+        "description": {
+          "default": "HelloWorld description"
+        },
+        "officeFabricIconFontName": "Page",
+        "properties": {
+          "description": "HelloWorld"
+        }
+      }
+    ],
+    "loaderConfig": {
+      "entryModuleId": "hello-world.bundle",
+      "internalModuleBaseUrls": [
+        "http://Airbus-A380.local:4321/"
+      ],
+      "scriptResources": {
+        "hello-world.bundle": {
+          "type": "internal",
+          "path": "dist/hello-world.bundle.js"
+        },
+        "mystrings": {
+          "defaultPath": "lib/webparts/helloWorld/loc/en-us.js",
+          "type": "localized",
+          "paths": {}
+        },
+        "@microsoft/sp-client-preview": {
+          "type": "framework",
+          "version": "latest",
+          "failoverPath": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js"
+        }
+      }
+    }
+  }
+]

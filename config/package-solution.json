@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "helloworld-webpart-client-side-solution",
+    "id": "e407ae06-5dac-4520-8c52-8da26886c612",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "helloworld-webpart.spapp"
+  }
+}
